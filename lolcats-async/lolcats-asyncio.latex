@@ -1,0 +1,95 @@
+\documentclass{beamer}
+
+\mode<presentation>
+{
+  \usetheme{Singapore}
+  % \setbeamercovered{transparent}
+}
+
+
+\usepackage[utf8]{inputenc}
+
+% \usepackage{times}
+
+% For pygmentize
+\usepackage{fancyvrb}
+\usepackage{color}
+
+\input{styles}
+
+
+\title[Lolcats & asyncio]
+{Shortest asyncio tutorial ever}
+
+\author[]{Szymon Pyżalski}
+
+\institute{AllegroGroup}
+
+\date {Europython Bilbao 2015}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage 
+  \url{http://github.com/zefciu/lolcats-asyncio/}
+\end{frame}
+
+
+\begin{frame}{}
+    So you wanna learn asyncio
+\end{frame}
+
+\begin{frame}{}
+    But it is so complicated
+\end{frame}
+
+\begin{frame}{}
+    How to make a robust 12M user application...
+\end{frame}
+
+\begin{frame}{}
+    How to download lolcats
+\end{frame}
+
+\begin{frame}{requests}
+\small{
+\input{requests}
+}
+\end{frame}
+
+\begin{frame}{aiohttp}
+\small{
+\input{aiohttp}
+}
+\end{frame}
+
+\begin{frame}{delegating}
+\small{
+    \input{delegating}
+}
+\end{frame}
+
+\begin{frame}{delegating2}
+\small{
+    \input{delegating2}
+}
+\end{frame}
+
+\begin{frame}{downloading}
+\small{
+    \input{downloading}
+}
+\end{frame}
+
+\begin{frame}{semaphore}
+\small{
+    \input{semaphore}
+}
+\end{frame}
+
+\begin{frame}{Bridge}
+    Contract bridge anyone?
+\end{frame}
+
+\end{document}

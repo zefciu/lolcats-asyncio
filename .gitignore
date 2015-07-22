@@ -1,0 +1,10 @@
+gifs
+*.aux
+*.tex
+*.toc
+*.pdf
+*.log
+*.snm
+*.aux
+*.out
+*.nav
